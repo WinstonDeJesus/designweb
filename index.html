@@ -1,58 +1,44 @@
+
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-<meta charset="UTF-8">
-<meta name="description" content="DESCRIPTION_GOES_HERE">
-<meta name="keywords" content="MASHUP">
-<meta name="author" content="WINSTON_DE_JESUS">
-<title>CATALOG</title>
-<link rel="stylesheet" type="text/css" href="css/styles.css">
-    
-    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>CATALOG</title>
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#ccffff', '#ccffe6', '#ffffcc', '#ffe6cc', '#ffcccc',]
+			});
+		});
+	</script>
 
 </head>
 
-
 <body>
-
     
-<h1>PROJECTS</h1> 
-    
-<iframe height="1300px" width="100%" src="images/journal.jpg" name="iframe_i"></iframe>
 
-<p><a href="https://www.are.na/winston-de-jesus/image-journal-1517850001" target="iframe_i">IMAGE JOURNAL</a></p>
-    
-<iframe height="1300px" width="100%" src="images/mashup.jpg" name="iframe_a"></iframe>
-
-<p><a href="https://winstondejesus.github.io/designweb/WEBSITE/index.html" target="iframe_a">MASHUP WEBSITE</a></p>
-    
-<iframe height="1300px" width="100%" src="images/clock.jpg" name="iframe_b"></iframe>
-
-<p><a href="https://winstondejesus.github.io/designweb/CLOCK/index.html" target="iframe_b">CLOCK</a></p>
-    
-<h1>WORKSHOPS</h1>
-    
-<iframe height="1300px" width="100%" src="images/plugin.jpg" name="iframe_c"></iframe>
-
-<p><a href="https://winstondejesus.github.io/designweb/PLUGINS/index.html" target="iframe_c">PLUGINS</a></p>
-    
-<iframe height="1300px" width="100%" src="images/responsive.jpg" name="iframe_d"></iframe>
-
-<p><a href="https://winstondejesus.github.io/designweb/RESPONSIVE/index.html" target="iframe_d">RESPONSIVE</a></p>
-
-<iframe height="1300px" width="100%" src="images/iframe.jpg" name="iframe_e"></iframe>
-
-<p><a href="https://winstondejesus.github.io/designweb/IFRAME/index.html" target="iframe_e">IFRAME</a></p>
-
-<iframe height="1300px" width="100%" src="images/animation.jpg" name="iframe_f"></iframe>
-
-<p><a href="https://winstondejesus.github.io/designweb/ANIMATION/index.html" target="iframe_f">ANIMATION</a></p>    
+  <div id="fullpage">
+      <div class="section" id="image1"></div>
       
-      
+    <div class="section" id="image2">
+  <!--      <div class="slide" data-anchor="slide1">Slide 2.1</div>
+        <div class="slide" data-anchor="slide2">Slide 2.2</div>-->
+    </div>
+    <div class="section" id="image3"></div>
+    <div class="section" id="image4"></div>
+    <div class="section" id="image5"></div>
+    <div class="section" id="image6"></div>
+</div>
+ 
 </body>
-
-
-
-
 </html>
