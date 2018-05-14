@@ -249,6 +249,15 @@ html.fp-enabled,
     background-repeat: no-repeat;
     background-size: cover;
 }
+#image7 {
+    background: url(images/responsive.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image8 {
+    background: url(images/plugin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 h2 {color: white;
     text-align:right;
     position: absolute;
