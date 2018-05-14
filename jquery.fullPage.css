@@ -257,11 +257,20 @@ html.fp-enabled,
 #image8 {
     background: url(images/plugin.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;}
+
 h2 {color: white;
     text-align:right;
     position: absolute;
     bottom: 0;
     font-size: 60px;
     
+}
+#example1 {
+    border: 2px solid gray;
+    background: white;
+    padding: 3px;
+    border-radius: 25px;
+    opacity: 0.6;
+   
 }
